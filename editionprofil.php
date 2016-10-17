@@ -4,7 +4,7 @@ session_start();
 // connexion a la bdd
 try
 {
-   $bdd = new PDO('mysql:host=localhost;dbname=espacemembre;charset=utf8', 'root', 'simplon');
+   $bdd = new PDO('mysql:host=localhost;dbname=espacemembre;charset=utf8', 'root', '');
 }
 catch(Exception $e)
 {
